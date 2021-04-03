@@ -46,7 +46,7 @@ public class CustomerGui {
 
                     //String text = table2.getModel().getValueAt(indexRow, 0).toString();
 
-                    Vector<String> rowData = (Vector) model.getDataVector().elementAt(indexRow);
+                    Vector<String> rowData = (Vector<String>) model.getDataVector().elementAt(rows[indexRow]);
 
                     Fruit fruit = new Fruit(rowData.elementAt(0), rowData.elementAt(1),rowData.elementAt(2));
 
